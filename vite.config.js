@@ -5,7 +5,7 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/css/main.css',
+                'resources/css/app.css',
                 'resources/js/app.js',
             ],
             refresh: true,
@@ -13,7 +13,7 @@ export default defineConfig({
     ],
     build: {
         css: {
-            output: 'main.css',
+            output: 'main.css' // Specify the output CSS file name
         }
     }
 });
